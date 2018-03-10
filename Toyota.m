@@ -10,10 +10,6 @@
 
 @implementation Toyota
 
--(void)drive {
-    [super drive];
-};
-
 - (instancetype)init
 {
     self = [super init];
