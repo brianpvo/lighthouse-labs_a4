@@ -13,5 +13,6 @@
 @property (assign) NSString* model;
 
 -(void)drive;
+-(instancetype)initWithModel: (NSString*) model;
 
 @end

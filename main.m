@@ -12,8 +12,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Car* nissan = [[Car alloc] init];
-        [nissan setModel:@"Rogue"];
+        Car* nissan = [[Car alloc] initWithModel:@"Rogue"];
         [nissan drive];
         
         Toyota* toyota = [[Toyota alloc] init];
